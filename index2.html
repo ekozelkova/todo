@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type = "text/css" rel="stylesheet" href="stylesheet2.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato|Droid+Sans' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="script4.js"></script>
+    <title>Todo</title>
+
+</head>
+<body>
+
+<div id="head">
+    <h1>TO DO</h1>
+</div>
+
+<div id="mainMargin">
+    <input id="textBox" type="text" placeholder="Add new element..." onkeyup="handleKeyPress(event)">
+    <button id="addButton" onclick="addTodo()">Add</button>
+
+    <ul id="todoList">
+        <li>
+            <label for="checkbox1">
+                Go to sleep before 23
+            </label>
+            <input id="checkbox1" type="checkbox" onclick="handleCheckboxChange(this)">
+        </li>
+        <li>
+            <label for="checkbox2">
+                Edit colors and checkbox design
+            </label>
+            <input id="checkbox2" type="checkbox" onclick="handleCheckboxChange(this)">
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

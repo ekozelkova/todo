@@ -1,0 +1,15 @@
+.button {
+    height: 50px;
+    width: 150px;
+    background-color: crimson;
+    border-radius: 15px 15px 15px 15px;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    position: relative;
+    left: 16px;
+    bottom: -3px;
+}
